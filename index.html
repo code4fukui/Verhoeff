@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+
+<h1>Verhoeff.js test</h1>
+<input id=num placeholder="num with Verhoeff checkdigit">
+<div id=mes></div>
+
+
+<script type="module">
+//import { Verhoeff } from "https://code4fukui.github.io/Verhoeff.js/Verhoeff.js";
+import { Verhoeff } from "./Verhoeff.js";
+
+num.onkeyup = num.onchange = () => {
+  const s = num.value.replace(/-/g, "");
+  const flg = Verhoeff.check(s);
+  mes.textContent = flg ? "valid!" : "invalid...";
+  num.style.backgroundColor = flg ? "lightgreen" : "pink";
+  console.log(Verhoeff.calc(s));
+};
+</script>
+
+<textarea>
+import { Verhoeff } from "https://code4fukui.github.io/Verhoeff.js/Verhoeff.js";
+
+num.onkeyup = num.onchange = () => {
+  const s = num.value.replace(/-/g, "");
+  const flg = Verhoeff.check(s);
+  mes.textContent = flg ? "valid!" : "invalid...";
+  num.style.backgroundColor = flg ? "lightgreen" : "pink";
+  console.log(Verhoeff.calc(s));
+};
+</textarea>
+
+<style>
+textarea {
+  width: 90vw;
+  height: 15em;
+  margin-top: 2em;
+}
+</style>
+
+<br>
+Lib: <a href=https://github.com/code4fukui/Verhoeff.js/>Verhoeff.js src on GitHub</a><br>
