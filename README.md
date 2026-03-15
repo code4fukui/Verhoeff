@@ -1,5 +1,7 @@
 # Verhoeff
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A check digit algorithm, [Verhoeff Algorithm](https://en.wikipedia.org/wiki/Verhoeff_algorithm) ([ja](https://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%98%E3%83%95%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0)).
 
 ## in JavaScript (ES module)
