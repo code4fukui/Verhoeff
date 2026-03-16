@@ -8,7 +8,7 @@ A check digit algorithm, [Verhoeff Algorithm](https://en.wikipedia.org/wiki/Verh
 
 - [Verhoeff.js](Verhoeff.js)
 
-### How to use
+### Usage
 
 ```js
 import { Verhoeff } from "https://code4fukui.github.io/Verhoeff/Verhoeff.js";
@@ -36,4 +36,4 @@ deno test
 
 ## License
 
-MIT License
+MIT License — see [LICENSE](LICENSE).

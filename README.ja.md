@@ -2,9 +2,6 @@
 
 [Verhoeff Algorithm](https://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%98%E3%83%95%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0)を使ったチェックディジット計算ライブラリです。
 
-## デモ
-[Verhoeff.js test](https://code4fukui.github.io/Verhoeff/) で動作確認できます。
-
 ## 機能
 - チェックディジットの計算
 - チェックディジットの検証
